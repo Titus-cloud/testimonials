@@ -5,6 +5,7 @@
 }
 
 body{
+  font-family: "Barlow Semi Condensed", sans-serif;
   line-height: 1.5;
   font-size: 13px;
 }
@@ -100,12 +101,16 @@ body{
 
 }
 
+.kira-jia{
+  background-color: hsl(0, 0%, 100%);
+}
+
 footer{
   text-align: center;
 }
 
 /* Media query */
-@media(max-width:768px){
+@media(max-width:375px){
   .testimonials{
     grid-template-columns: 1fr;
     width: 100%;
